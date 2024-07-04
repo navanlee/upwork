@@ -98,7 +98,7 @@ while current_page <= last_page:
 # print(agent_deals)
 # print(agent_pricerange)
 
-# driver.quit()
+driver.quit()
 
 df_name = pd.DataFrame({'Agent Name': agent_names, 'Company': agent_companies, 'Phone': agent_phone, 'Total Sales': agent_sales, 'Deals in this Location': agent_deals, 'Price range': agent_pricerange})
 df_name.to_csv('agents_details.csv', index=False)
