@@ -7,7 +7,7 @@ import pandas as pd
 import time
 
 web = 'https://www.homes.com/real-estate-agents/chicago-il/'
-path = Service(executable_path=r"C:\Users\NAVANIEE\Downloads\chromedriver-win64\chromedriver.exe")
+path = Service(executable_path=r"C:\Users\Downloads\chromedriver-win64\chromedriver.exe")
 driver = webdriver.Chrome(service=path)
 driver.get(web)
 
